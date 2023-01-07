@@ -7,7 +7,7 @@ function Pbutton() {
   function paragraph() {
     // setpara("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy") 
     const para=document.getElementById('para') 
-    para.innerHTML = "Hello, I've learnt to use the full-stack evaluation";
+    para.innerText = "Hello, I've learnt to use the full-stack evaluation";
   
 
   }
