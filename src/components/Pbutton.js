@@ -6,9 +6,9 @@ function Pbutton() {
   // const [para, setpara] = useState("")
   function paragraph() {
     // setpara("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy") 
-    const para=document.createElement('p') 
+    const para=document.getElementById('para') 
     para.innerHTML = "Hello, I've learnt to use the full-stack evaluation";
-    document.getElementById("para").appendChild(para);
+  
 
   }
   return (<>
