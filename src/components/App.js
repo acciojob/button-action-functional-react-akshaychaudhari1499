@@ -7,7 +7,7 @@ function App() {
   return (
     <div id="main">
     // Do not alter the main div
-    {/* <Pbutton/> */}
+    <Pbutton/>
     </div>
   );
 }
